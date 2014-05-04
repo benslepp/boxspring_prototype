@@ -6276,11 +6276,11 @@ button.close {
     bottom: 20px;
   }
 }
-.clearfix:before, .clearfix:after {
+.clearfix:before, .page-section .video-upload .video-content:before, .clearfix:after, .page-section .video-upload .video-content:after {
   content: " ";
   display: table;
 }
-.clearfix:after {
+.clearfix:after, .page-section .video-upload .video-content:after {
   clear: both;
 }
 
@@ -6567,4 +6567,120 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.globalnav {
+  height: 35px;
+  width: 100%;
+  margin: 0;
+  background-color: #302c28;
+}
+.globalnav img {
+  display: block;
+  margin: auto;
+}
+
+.propertynav {
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  background-color: #544e46;
+}
+.propertynav img {
+  display: block;
+  margin: auto;
+}
+
+.page-header {
+  background-color: #FFF;
+  height: 115px;
+  width: 100%;
+  margin: 0px;
+}
+.page-header img {
+  display: block;
+  margin: auto;
+}
+
+.background {
+  background-color: #f4f3ed;
+}
+
+.page-section {
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 940px;
+  padding: 35px;
+}
+.page-section h1 {
+  font-size: 11px;
+  color: #9f9482;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.page-section .video-upload {
+  background-color: #efefef;
+  width: 100%;
+  height: auto;
+  border: 1px solid #555555;
+}
+.page-section .video-upload h1 {
+  color: #555555;
+  font-size: 24px;
+  font-weight: 500px;
+  text-transform: initial;
+}
+.page-section .video-upload h2 {
+  color: #999999;
+  font-size: 14px;
+  font-weight: 300px;
+}
+.page-section .video-upload h3 {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300px;
+}
+.page-section .video-upload .video-content {
+  margin: 35px;
+}
+.page-section .video-upload .video-content .video-thumb {
+  width: 320px;
+  height: 180px;
+  margin-right: 35px;
+  background-color: #999999;
+  float: left;
+}
+
+.video-text-top {
+  margin-top: 80px;
+}
+
+.video-text-bottom {
+  margin-bottom: 80px;
+}
+
+.textalign-center {
+  text-align: center;
+}
+
+.textalign-left {
+  text-align: left;
+}
+
+.progressbar-spacing {
+  margin-top: 20px;
+}
+
+.forms {
+  border: 1px solid #e5e3d8;
+  height: 46px;
+}
+
+.footer-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }

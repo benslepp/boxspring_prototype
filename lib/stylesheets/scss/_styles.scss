@@ -1,1 +1,133 @@
 // This is where all of the custom styling, that takes precedence over bootstrap styling, goes.
+
+.globalnav {
+	height: 35px;
+	width:100%;
+	margin: 0;
+	background-color: #302c28;
+
+	img {
+		display:block;
+		margin:auto;
+	}
+}
+
+.propertynav {
+	height: 40px;
+	width: 100%;
+	margin: 0;
+	background-color: #544e46;
+
+	img {
+		display:block;
+		margin:auto;
+	}
+}
+
+.page-header {
+	background-color: #FFF;
+	height: 115px;
+	width: 100%;
+	margin: 0px;
+
+	img {
+		display:block;
+		margin:auto;
+	}
+}
+
+.background {
+	background-color: #f4f3ed;
+}
+
+.page-section {
+	background-color: #FFF;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	margin-top:50px;
+	width:940px;
+	padding: 35px;
+
+	h1 {
+		font-size: 11px;
+		color: #9f9482;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	.video-upload {
+		background-color: $proto-grey;
+		width:100%;
+		height:auto;
+		border: 1px solid $proto-darkgrey;
+
+			h1 {
+				color: $proto-darkgrey;
+				font-size: 24px;
+				font-weight: 500px;
+				text-transform:initial;
+			}
+
+			h2 {
+				color: $proto-medgrey;
+				font-size: 14px;
+				font-weight: 300px;
+			}
+
+			h3 {
+				color: $proto-medgrey;
+				font-size: 11px;
+				font-weight: 300px;
+			}
+
+		.video-content {
+			margin:35px;
+			@extend .clearfix;
+
+			.video-thumb {
+				width: 320px;
+				height: 180px;
+				margin-right: 35px;
+				background-color: $proto-medgrey;
+				float:left;
+			}
+		}
+	}
+}
+
+.video-text-top {
+	margin-top:80px;
+}
+
+.video-text-bottom {
+	margin-bottom:80px;
+}
+
+.textalign-center {
+	text-align:center;
+}
+
+.textalign-left{
+	text-align:left;
+}
+
+.progressbar-spacing {
+	margin-top:20px;
+}
+
+.forms {
+	border:1px solid #e5e3d8;
+	height:46px;
+}
+
+.footer-image {
+	img {
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:30px;
+	}
+}
+
+
